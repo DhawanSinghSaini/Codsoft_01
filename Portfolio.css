@@ -1,0 +1,308 @@
+/* NAVBAR CSS EXCLUSIVE */
+nav{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-content>a{
+  width: min-content;
+}
+
+
+img{
+    width: 175px;
+}
+
+button{
+    width: 140px;
+    height: 61.3px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+
+}
+
+/* About Me CSS Exclusive */
+#AboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 100vh; */
+    justify-items: center;
+    align-items: center;
+    margin: 70px;
+    gap:30px;
+}
+
+#LinkdIn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40px;
+}
+
+#introButton{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content: flex-start;
+}
+
+#introButton>a button{
+    background-color: #aa77ff;
+    color: white;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+
+#introButton>a{
+  width: min-content;
+}
+
+
+#introduction>h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+h2{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#AboutMePhoto>img{
+    height: 500px;
+    width: 500px;
+}
+
+/* SKILLS CSS EXCLUSIVE */
+#Skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    justify-items: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap:30px;
+}
+
+#SkillPhoto>img{
+  width: 450px;
+}
+
+#logocontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#logocontainer>img{
+  width: 100px;
+  padding: 20px;
+}
+
+/* Profrciency CSS Code */
+#Proficiency{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  justify-items: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap:30px;
+}
+
+#ProficiencyPhoto>img{
+  width:400px
+}
+
+progress{
+  height:5px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+progress::-webkit-progress-bar {
+ background-color: #c9eeff;
+ border-radius: 100px;
+}
+progress::-webkit-progress-value {
+ background-color: #62cdff;
+ border-radius: 100px;
+}
+
+/* Projects CSS Exclusive */
+#Projects{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#project-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill,1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 70px;
+  gap:70px;
+}
+
+.project-item{
+  background-color:rgb(253, 253, 255);
+  padding: 20px;
+  border : 1px solid black;
+  box-shadow: 2px 3px 5px 3px whitesmoke;
+  width: 80%;
+  height: 100%;
+}
+
+#Projects>h1{
+  margin: 70px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+a{
+  width: 100%;
+}
+
+/* Certification CSS Exclusive */
+#Certifications{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#certification-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: start;
+  align-items: center;
+  margin: 70px;
+  gap:10px;
+}
+
+.certification-item{
+  background-color:rgb(253, 253, 255);
+  padding: 20px;
+  border : 1px solid black;
+  box-shadow: 2px 3px 5px 7px whitesmoke;
+  width: 80%;
+  height: 100%;
+}
+
+.certification-item>img{
+  width: 100%;
+}
+
+.certification-item>h1{
+  font-size: 23px;
+}
+
+#Certifications>h1{
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+
+
+/* Contact Me CSS Exclusive */
+#Contact{
+  margin:70px 140px;
+  padding-bottom: 40px;
+}
+
+#contact-container{
+  display:flex;
+  flex-direction: row;
+  width: 200px;
+  height: 10px;
+  align-items: center;
+  padding-top: 25px;
+}
+
+#contact-container>a{
+  width: min-content;
+  margin: 20px;
+}
+
+/* Footer CSS Exclusively */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+#foot-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:start;
+  padding-top: 30px;
+}
+
+h2>a:any-link{
+  color: white;
+}
+
+footer>h2{
+  color: white;
+}
+
+footer>pre{
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+#copyright{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
